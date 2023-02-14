@@ -1,5 +1,5 @@
 import React from "react";
-import KaKaoLogo from "../../logo/KaKaoLogo";
+import KaKaoLogo from "../logo/KaKaoLogo";
 
 const PlaylistDetailMusic = () => {
   return (

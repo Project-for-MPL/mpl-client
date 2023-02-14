@@ -1,5 +1,5 @@
-import PlaylistDetailCover from "../components/playlist/detail/PlaylistDetailCover";
-import PlaylistDetailMusic from "../components/playlist/detail/PlaylistDetailMusic";
+import PlaylistDetailCover from "../components/detailPlaylist/PlaylistDetailCover";
+import PlaylistDetailMusic from "../components/detailPlaylist/PlaylistDetailMusic";
 
 const PlaylistDetailpage = () => {
   return (
