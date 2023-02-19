@@ -29,7 +29,7 @@ function App() {
           <Route path="/mypage" element={<Mypage />} />
           <Route path="/" element={<Mainpage />} />
           <Route path="/auth" element={<Loginpage />} />
-          <Route path="/detail" element={<PlaylistDetailpage />} />
+          <Route path="/detail/:id" element={<PlaylistDetailpage />} />
           <Route path="/create" element={<CreatePlaylistpage />} />
           <Route path="/searchuser" element={<Searchuserpage />} />
         </Routes>
