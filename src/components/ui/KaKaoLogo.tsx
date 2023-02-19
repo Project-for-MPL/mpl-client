@@ -1,13 +1,14 @@
 import { ReactComponent as Kakaologo } from "../../assets/kakaologo.svg";
+import Button from "./Button";
 
 type Props = {
   className: string;
 };
 
 const KaKaoLogo = (props: Props) => (
-  <button className={`bg-yellow-300 w-8 h-8 rounded-full ${props.className}`}>
+  <Button onClick={() => {}} className={`bg-yellow-300 w-8 h-8 rounded-full ${props.className}`}>
     <Kakaologo className="m-auto" />
-  </button>
+  </Button>
 );
 
 export default KaKaoLogo;
